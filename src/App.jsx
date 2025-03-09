@@ -1,16 +1,21 @@
-import { motion } from "framer-motion";
+import "./index.css";
+import BirthdayCard from "./components/BirthdayCard";
+import BackgroundMusic from "./components/BackgroundMusic";
+import AnimatedText from "./components/AnimatedText";
+import Balloons from "./components/Balloons";
+import ConfettiEffect from "./components/ConfettiEffect";
+import FireworksEffect from "./components/FireworksEffect";
 
 function App() {
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5 }}
-      style={{ textAlign: "center", marginTop: "50px" }}
-    >
-      <h1>🎉 Selamat Ulang Tahun! 🎂</h1>
-      <p>Semoga panjang umur dan sehat selalu! 🥳</p>
-    </motion.div>
+    <div className="App">
+      <BackgroundMusic />
+      <AnimatedText />
+      <BirthdayCard />
+      <Balloons />
+      <FireworksEffect />
+      <ConfettiEffect />
+    </div>
   );
 }
 

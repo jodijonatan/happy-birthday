@@ -12,9 +12,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "fireworks-js": "^2.10.8",
     "framer-motion": "^12.4.10",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-fireworks": "^1.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
