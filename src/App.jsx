@@ -19,4 +19,6 @@ function App() {
   );
 }
 
+console.log("CSS harusnya sudah terhubung!");
+
 export default App;
